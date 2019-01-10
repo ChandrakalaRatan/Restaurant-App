@@ -39,23 +39,23 @@
 
 # From the terminal, run:
 
-##### git clone https://github.com/udacity/OAuth2.0 oauth
-##### This will give you a directory named oauth complete with the source code for the flask application, a vagrantfile, and a bootstrap.sh file for installing all of the necessary tools.
+##### git clone https://github.com/ChandrakalaRatan/Restaurant-App.git
+##### This will give you a directory named Restaurant-App complete with the source code for the flask application, a vagrantfile, and a pg_config.sh file for installing all of the necessary tools.
 
 # Run the virtual machine!
-##### Using the terminal, change directory to oauth (cd oauth), then type vagrant up to launch your virtual machine.
+##### Using the terminal, change directory to Restaurant-App **cd Restaurant-App**, then type **vagrant up** to launch your virtual machine.
 
 # Running the Restaurant App
-##### Once it is up and running, type vagrant ssh. This will log your terminal into the virtual machine, and you'll get a Linux shell prompt. When you want to log out, type exit at the shell prompt. To turn the virtual machine off (without deleting anything), type vagrant halt. If you do this, you'll need to run vagrant up again before you can log into it.
+##### Once it is up and running, type **vagrant ssh**. This will log your terminal into the virtual machine, and you'll get a Linux shell prompt. When you want to log out, type exit at the shell prompt. To turn the virtual machine off (without deleting anything), type **vagrant halt**. If you do this, you'll need to run **vagrant up** again before you can log into it.
 
-##### Now that you have Vagrant up and running type vagrant ssh to log into your VM. change to the /vagrant directory by typing cd /vagrant. This will take you to the shared folder between your virtual machine and host machine.
+##### Now that you have Vagrant up and running type **vagrant ssh** to log into your VM. change to the /vagrant directory by typing cd /vagrant. This will take you to the shared folder between your virtual machine and host machine.
 
-##### Type ls to ensure that you are inside the directory that contains project.py, database_setup.py, and two directories named 'templates' and 'static'
+##### Type ls to ensure that you are inside the directory that contains finalProject.py, database_setup.py, restaurantmenu.db,lotsofmenus.py, Vagrantfile, pg_config.sh and two directories named 'templates' and 'static'
 
-##### Now type python database_setup.py to initialize the database.
+##### Now type **python database_setup.py** to initialize the database.
 
-##### Type python lotsofmenus.py to populate the database with restaurants and menu items. (Optional)
+##### Type python **lotsofmenus.py** to populate the database with restaurants and menu items. (Optional)
 
-##### Type python finalProject.py to run the Flask web server. In your browser visit http://localhost:5000 to view the restaurant app. You should be able to view, add, edit, and delete menu items and restaurants.
+##### Type **python finalProject.py** to run the Flask web server. In your browser visit http://localhost:5000 to view the restaurant app. You should be able to view, add, edit, and delete menu items and restaurants.
 
 #####  We can Also obtain JSON object from   List all restaurants: http://localhost:5000/restaurants/json. List all menu items for a given RESTAURANT_ID: http://localhost:5000/restaurants/<RESTAURANT ID>/menu/json. List a single menu item: http://localhost:5000/restaurants/<RESTAURANT ID>/menu/<MENU ID>/json
