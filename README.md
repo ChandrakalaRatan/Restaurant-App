@@ -1,6 +1,6 @@
 # Restaurant Menu App
 ## Objective:
-##### Restaurant Menu App is simple web application developed as part of learning CRUD functionalities in Udacity Full Stack Nano Degree Programming.  The objective of this app is to create, edit, delete and display list of many restaurants and their menus. This application is created using python,Flask, SQLite.
+##### Restaurant Menu App is a simple web application developed as part of learning CRUD functionalities in Udacity Full Stack Nano Degree Programming.  The objective of this app is to create, edit, delete and display restaurants list and their menus. This application is created using python,Flask, SQLite.
 ## Requirements:
 1.  Display list of Restaurants and their menus.
 2.  Add, Edit and Delete Restaurants
